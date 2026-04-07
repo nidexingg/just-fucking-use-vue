@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import StateManagementDemo from "./components/StateManagementDemoLoader.vue";
 import ThemeToggle from "./components/ThemeToggle.vue";
+import AnotherDemo from "./components/AnotherDemo.vue";
 import { Button } from "./components/ui/button";
 import { GithubIcon } from "lucide-vue-next";
 </script>
@@ -71,6 +72,12 @@ import { GithubIcon } from "lucide-vue-next";
               using the bastard.
             </a>
           </li>
+          <li>
+            <a href="#why-vue-specifically">
+              Why Vue specifically, and not raw HTML theater or framework fanboy
+              wars?
+            </a>
+          </li>
         </ul>
       </li>
       <li>
@@ -83,6 +90,16 @@ import { GithubIcon } from "lucide-vue-next";
         <a href="#when">
           When should I just fucking use Vue (or a similar framework), you slow
           learner?
+        </a>
+      </li>
+      <li>
+        <a href="#vue-power-demo">
+          Show me the actual Vue magic, not just your angry TED talk.
+        </a>
+      </li>
+      <li>
+        <a href="#vue-impossible-demo">
+          Give me advanced shit that melts vanilla brains.
         </a>
       </li>
       <li>
@@ -151,6 +168,34 @@ import { GithubIcon } from "lucide-vue-next";
       interactive interfaces instead of trying to duct-tape a full SPA onto
       &quot;just some HTML and vibes&quot;.
     </p>
+    <h3 id="why-vue-specifically">
+      WHY VUE SPECIFICALLY? BECAUSE YOU WANT POWER WITHOUT NEEDLESS BRAIN
+      DAMAGE.
+    </h3>
+    <p>
+      Static HTML is amazing for documents and simple pages. The moment your
+      UI starts behaving like an application, though, static markup alone turns
+      into a part-time job of manually wiring events, syncing state, and praying
+      you didn&apos;t forget one cursed DOM update in a corner case.
+    </p>
+    <p>
+      Vue gives you the middle path: strong structure, reactivity that makes
+      sense, and single-file components that keep template, logic, and style in
+      one sane place instead of scattering your thoughts across seventeen files
+      and a stress headache.
+    </p>
+    <p>
+      Compared to heavier frameworks, Vue usually asks for less ceremony to get
+      moving. Compared to ultra-minimal libs, Vue gives you more batteries out
+      of the box so your team isn&apos;t rebuilding routing, patterns, and project
+      conventions from scratch every sprint like amnesiac raccoons.
+    </p>
+    <p>
+      Translation: if static HTML is too weak for the app you&apos;re building, and
+      framework dogma is wasting your oxygen, Vue is often the practical answer.
+      Not because it&apos;s holy, but because it lets people ship real features
+      without writing front-end fanfiction.
+    </p>
 
     <h3>
       HTML&apos;S &quot;INTERACTIVITY&quot; IS FOR PARTY TRICKS, NOT POWER
@@ -195,6 +240,18 @@ import { GithubIcon } from "lucide-vue-next";
       you admitting you&apos;re not going to keep the entire app in your head
       like some bug-ridden savant.
     </p>
+
+
+    <h3 id="vue-power-demo">
+      ALRIGHT, WANT MORE INSULTS? NOW DO THIS WITH HTML, YOU FUCK
+    </h3>
+    <p>
+      This one stacks optimistic updates, rollback on random server failure,
+      mutation logs, time-travel undo/redo, derived KPIs, and persistence.
+      Exactly the kind of behavior that becomes a maintenance horror show when
+      you build it as scattered event listeners and random globals.
+    </p>
+    <AnotherDemo />
 
     <h3 id="components">COMPONENTS, MOTHERFUCKER. LEARN THE WORD.</h3>
     <p>
