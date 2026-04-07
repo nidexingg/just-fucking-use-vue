@@ -1,0 +1,3 @@
+# Just Fucking Use Vue + TypeScript + Vite
+
+First and foremost, this is for humour purposes only and not really appropriate for nerdy or family‑friendly devs. I just made this for fun and for learning how to port code from **React** to **Vue** in my free time. This repo is 100% clearly not inspired by [burakcan/just-fucking-use-react](https://github.com/burakcan/just-fucking-use-react) (yeah! trust me, bro 🫩). Huge thanks to [RekaUI](https://github.com/unovue/reka-ui) and [Shadcn Vue](https://github.com/unovue/shadcn-vue) for the `StateManagementDemo` chart.
